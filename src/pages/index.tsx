@@ -4,6 +4,7 @@ import { Button } from "@/ui/design-system/button/button";
 import { RiNotification2Fill, RiShieldUserLine } from "react-icons/ri";
 import { Spinner } from "@/ui/design-system/spinner/spinner";
 import { Logo } from "@/ui/design-system/logo/logo";
+import { Avatar } from "@/ui/design-system/avatar/avatar";
 
 export default function Home() {
     return (
@@ -169,6 +170,30 @@ export default function Home() {
                             <Logo size="small" />
                             <Logo />
                             <Logo size="large" />
+                        </div>
+                    </div>
+                </div>
+                {/* Avatar */}
+                <div className="flex items-start gap-7">
+                    <div className="space-y-2">
+                        <Typography variant="caption2" weight="medium">
+                            Avatar
+                        </Typography>
+                        <div className="flex items-center gap-2 p-5 border border-gray-400 rounded">
+                            <Avatar
+                                size="small"
+                                src="/assets/images/daniel-lincoln-pe-X2NUwVQo.png"
+                                alt="Daniel"
+                            />
+                            <Avatar
+                                src="/assets/images/daniel-lincoln-pe-X2NUwVQo.png"
+                                alt="Daniel"
+                            />
+                            <Avatar
+                                src="/assets/images/daniel-lincoln-pe-X2NUwVQo.png"
+                                alt="Daniel"
+                                size="large"
+                            />
                         </div>
                     </div>
                 </div>
